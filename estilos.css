@@ -1,0 +1,81 @@
+body {
+    background-color:peru;
+}
+button {
+    width: 150px;
+    height: 150px;
+    margin-left: 35%;
+    margin-right: 35%;
+    width: 30%;
+}
+a:hover{
+    background-color: red;
+    font-size: 30px;
+}
+button:hover{
+    background-color: red;
+    font-size: 30px;
+}
+h1 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roma', Times, serif;
+    font-size: 100px;
+    text-align: center;
+}
+h2 {
+    background-color: blueviolet;
+    color:darkgreen;
+    font-family: sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+h3 {
+    font-size: 50px;
+    text-align: center;
+}
+h4 {
+    font-size: 50px;
+    text-align: center;
+}
+h5 {
+    font-size: 50px;
+    text-align: center;
+
+}
+
+h6 {
+    font-size: 50px;
+    text-align: center;
+}
+p {
+    font-size: 50px;
+    text-align: center;
+}
+.Robos{
+    width: 450px;
+    height: 450px;
+    margin-left: 35%;
+    margin-right: 35%;
+    width: 30%;
+}
+.vidrio{
+    width: 500px;
+    height: 500px;
+}  
+.cajita{
+    width: 500px;
+    height: 500px;
+    margin: 100 px;
+    padding: 100px;
+    border: 30px solid crimson;
+    background-color: blueviolet;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.pablitos{
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 30%;
+    
+}
