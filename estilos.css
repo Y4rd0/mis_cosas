@@ -7,6 +7,9 @@ button {
     margin-left: 35%;
     margin-right: 35%;
     width: 30%;
+    background-color: red;
+    color: black;
+    font-size: 30px;
 }
 a:hover{
     background-color: red;
@@ -17,18 +20,28 @@ button:hover{
     font-size: 30px;
 }
 h1 {
+    border-radius: 45px;
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     font-family: 'Times New Roma', Times, serif;
     font-size: 100px;
     text-align: center;
+    -webkit-border-radius: 45px;
+    -moz-border-radius: 45px;
+    -ms-border-radius: 45px;
+    -o-border-radius: 45px;
 }
 h2 {
+    border-radius: 30px;
     background-color: blueviolet;
     color:darkgreen;
     font-family: sans-serif;
     font-size: 50px;
     text-align: center;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
 }
 h3 {
     font-size: 50px;
@@ -72,10 +85,43 @@ p {
     background-color: blueviolet;
     margin-left: 30%;
     margin-right: 30%;
+    
 }
 .pablitos{
     margin-left: 30%;
     margin-right: 30%;
     width: 30%;
     
+}
+
+.yardobot{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    animation: mover 3s linear infinite;
+    -webkit-animation: mover 3s linear infinite;
+}
+
+.yardobot:hover{
+    font-size: 50px;
+    background-color: blue;
+}
+
+@keyframes mover {
+    0% { transform:translateX(0); }
+    100% { transform:translateX(250px); }
+}
+.dirigirse{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
